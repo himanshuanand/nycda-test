@@ -1,0 +1,65 @@
+html{
+	height: 100%;
+	border: 1px solid blue;
+}
+
+body{
+	background-color: #FFF;
+	height: 100%;
+	height: 100%;
+	border: solid 1px green;
+}
+
+div{
+	border: solid 1px #000;
+}
+
+#container{
+	border: solid 2px red;
+	width: 90%; 
+	/*keep it less than 100% to center*/
+	margin: 0 auto; 
+	/*to center block*/
+}
+
+#banner{
+	height: 150px;
+}
+
+#nav{
+	height: 50px;
+}
+
+#main{
+	width: 75%;
+	background-color: blue;
+	float: left;
+	border: solid 0px;
+	text-align: center;
+}
+
+.sideBar{
+	width: 25%;
+	background-color: green;
+	float: left;
+	border: solid 0px;
+	text-align: right;
+}
+
+.frame{
+	border: solid 1px black;
+	width: 100%;
+	height: 100%;
+}
+
+.mainPic{
+	width: 40%;
+	float: left;
+
+}
+
+#footer{
+	background-color: cyan;
+	height: 50px;
+	clear: both; /*to start after the floats*/
+}

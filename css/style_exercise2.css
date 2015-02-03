@@ -1,0 +1,11 @@
+p{
+	width: 250px;
+	display: inline-table;
+	padding: 2px;
+	margin: 2px;
+	border: 2px dashed blue;
+}
+span {
+	color: red;
+	display: block;
+}

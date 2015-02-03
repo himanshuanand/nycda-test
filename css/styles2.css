@@ -1,0 +1,32 @@
+div {
+	width: 100px;
+	height: 100px;
+}
+.red {
+	background-color: red;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+
+}
+.green {
+	background-color: green;
+	position: relative;
+	left: 150px;
+	top: 12px;
+	/*bottom: 80px;*/
+}
+.blue {
+	background-color: blue;
+	position: relative;
+	top: 20px;
+	z-index: 1;
+}
+.grey {
+	background-color: grey;
+	position: relative;
+	left: 50px;
+	bottom: 80px;
+/*	for sending it in background in case of overlap*/
+	z-index: -1;
+}
